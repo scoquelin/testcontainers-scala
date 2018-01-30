@@ -9,8 +9,4 @@ services:
   - docker
 
 script:
-  - sbt +test
-
-cache:
-  directories:
-  - $HOME/.gradle
+  - ./sbt +test
