@@ -21,3 +21,8 @@ script:
 cache:
   directories:
   - $HOME/.gradle
+
+branches:
+  only:
+  - master
+  - sbt # TODO remove
